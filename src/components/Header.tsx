@@ -35,7 +35,6 @@ export default function Header() {
               <a href="#accueil" className="hover:text-indigo-600 transition-colors">Accueil</a>
               <a href="#competences" className="hover:text-indigo-600 transition-colors">Compétences</a>
               <a href="#projets" className="hover:text-indigo-600 transition-colors">Projets</a>
-              <a href="#contact" className="hover:text-indigo-600 transition-colors">Contact</a>
             </div>
           </div>
         )}

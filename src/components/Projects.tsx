@@ -74,7 +74,7 @@ export default function Projects() {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">Projets</h2>
         
-        <div className="flex justify-center gap-4 mb-12">
+        <div className="flex justify-center gap-4 mb-12 flex-wrap sm:flex-direction: column">
           {categories.map((category) => (
             <button
               key={category.id}
