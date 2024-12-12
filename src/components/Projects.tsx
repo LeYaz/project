@@ -5,7 +5,8 @@ import mapsLeadsImage from '../assets/images/mapsleads.png';
 import autocleanImage from '../assets/images/autocleanworkflow.png';
 import emailclassifierImage from '../assets/images/emailclassifier.png';
 import chatbotImage from '../assets/images/chatbotperso.png';
-
+import portImage from '../assets/images/port.png';
+import digitalscalesImage from '../assets/images/digitalscales.png';
 const projects = {
   saas: [
     {
@@ -15,44 +16,44 @@ const projects = {
       technologies: ["Angular", "Nest.js", "PostgreSQL", "VPS"]
     }
   ],
-  progiciel: [
+  autom: [
     {
       title: "Suivi de tâches",
-      description: "Système de suivi des tâches et intégrations sur google sheet automatisées",
+      description: "Système de suivi des tâches et intégrations sur Google Sheets automatisées",
       image: autocleanImage,
       technologies: ["Angular", "NestJs", "n8n", "PostgreSQL"]
     },
     {
       title: "Classification de mails",
-      description: "Solution de classification de mails à partir de critères défini via un dashboard",
+      description: "Solution de classification de mails à partir de critères définis via un dashboard",
       image: emailclassifierImage,
       technologies: ["n8n", "OpenAi api", "Angular", "NestJs", "PostgreSQL"]
     }
   ],
-  vitrine: [
+  industrie: [
     {
-      title: "Site E-commerce Mode",
-      description: "Boutique en ligne de vêtements de luxe",
-      image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=800",
-      technologies: ["Next.js", "Strapi", "PostgreSQL", "Stripe"]
-    },
-    {
-      title: "Site Restaurant",
-      description: "Site vitrine avec système de réservation",
-      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=800",
-      technologies: ["Gatsby", "Contentful", "Netlify", "GraphQL"]
+      title: "Application Système informations",
+      description: "Développement d'une application permettant la gestion des informations diffusées au sein d'une zone portuaire (sonorisation, panneaux d'affichage, horaires d'arrivées et de départs, etc.)",
+      image: portImage,
+      technologies: ["Angular", "C#", ".Net", "MariaDB"]
     }
   ], 
   concept: [
     {
+      title: "DigitalScales",
+      description: "Site vitrine pour DigitalScales",
+      image: digitalscalesImage,
+      technologies: ["Angular", "SCSS"]
+    },
+    {
       title: "Site humoristique de meme sur le temps",
-      description: "Chaque page est une page de chargement, et à chaque rechargement une page différente est affichée",
+      description: "Chaque page est une page de chargement, et à chaque rechargement du site une page différente est affichée",
       image: waitImage,
       technologies: ["React", "Tailwind CSS", "Vite"]
     },
     {
       title: "ChatBot personalisé",
-      description: "ChatBot avec un personalité bien marquée (romantique, confus, idiot, etc.)",
+      description: "ChatBot avec une personalité bien marquée (romantique, confus, idiot, etc.)",
       image: chatbotImage,
       technologies: ["Vue.js", "Nest.js", "OpenAi api"]
     }
@@ -61,9 +62,9 @@ const projects = {
 
 const categories = [
   { id: 'saas', label: 'SaaS', icon: <Building2 className="h-5 w-5" /> },
-  { id: 'progiciel', label: 'Automatisation', icon: <Package className="h-5 w-5" /> },
-  { id: 'vitrine', label: 'Site Vitrine', icon: <Layout className="h-5 w-5" /> },
-  { id: 'concept', label: 'Concept', icon: <Code className="h-5 w-5" /> }
+  { id: 'autom', label: 'Automatisation', icon: <Package className="h-5 w-5" /> },
+  { id: 'industrie', label: 'Industrie/Transport', icon: <Layout className="h-5 w-5" /> },
+  { id: 'concept', label: 'Concept/Site vitrine', icon: <Code className="h-5 w-5" /> }
 ];
 
 export default function Projects() {
