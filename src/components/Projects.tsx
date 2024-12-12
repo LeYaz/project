@@ -14,13 +14,6 @@ const projects = {
       image: mapsLeadsImage,
       technologies: ["Angular", "Nest.js", "PostgreSQL", "VPS"]
     }
-    // ,
-    // {
-    //   title: "CRM Cloud",
-    //   description: "Solution CRM complète pour la gestion de la relation client",
-    //   image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
-    //   technologies: ["Vue.js", "Django", "MongoDB", "Docker"]
-    // }
   ],
   progiciel: [
     {

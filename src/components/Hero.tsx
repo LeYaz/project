@@ -15,9 +15,6 @@ export default function Hero() {
               Passionné par la création d'applications web innovantes et performantes
             </p>
             <div className="flex gap-4">
-              {/* <a href="#contact" className="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors">
-                Me contacter
-              </a> */}
               <div className="flex gap-4">
                 <a href="https://github.com/LeYaz" target="_blank" rel="noopener noreferrer" className="p-2 hover:text-indigo-600 transition-colors">
                   <Github className="h-6 w-6" />
@@ -25,9 +22,6 @@ export default function Hero() {
                 <a href="https://www.linkedin.com/in/yazid-aadnan-webdev/" target="_blank" rel="noopener noreferrer" className="p-2 hover:text-indigo-600 transition-colors">
                   <Linkedin className="h-6 w-6" />
                 </a>
-                {/* <a href="mailto:contact@example.com" className="p-2 hover:text-indigo-600 transition-colors">
-                  <Mail className="h-6 w-6" />
-                </a> */}
               </div>
             </div>
           </div>

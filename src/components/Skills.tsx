@@ -17,11 +17,6 @@ const skills = [
     icon: <Database className="h-8 w-8 text-indigo-600" />,
     technologies: ["PostgreSQL", "MongoDB", "MySQL"]
   },
-  // {
-  //   category: "Mobile",
-  //   icon: <Smartphone className="h-8 w-8 text-indigo-600" />,
-  //   technologies: ["React Native", "Flutter"]
-  // },
   {
     category: "DevOps",
     icon: <Terminal className="h-8 w-8 text-indigo-600" />,
